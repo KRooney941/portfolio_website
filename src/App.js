@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/navBar";
-import About from "./components/About/about";
 import Home from "./components/Home/home";
 import ErrorPage from "./components/ErrorPage/errorPage";
 import Experience from "./components/Experience/experience";
