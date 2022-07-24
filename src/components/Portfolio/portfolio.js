@@ -7,8 +7,8 @@ const Portfolio = () => (
   <div className="portfolio">
     <h4 >Portfolio</h4>
     <div className="weather-app">
-            <h2>Weather Forcast App | Solo project</h2>
-            <p>A Weather application built to help me better undertand React and APIs. Built in React with the OpenWeatherMap API and GeoDB API.</p>
+            <h2>Weather Forecast App | Solo project</h2>
+            <p>A Weather application built to help me better understand React and APIs. Built in React with the OpenWeatherMap API and GeoDB API.</p>
             <p><a className="link" href="https://github.com/KRooney941/weather_app">Github link to the project!</a> </p>
      
     <img className="weather-app-image"
