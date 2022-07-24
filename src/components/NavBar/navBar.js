@@ -6,34 +6,27 @@ import headshot from '../../images/headshot.png'
 
 const NavBar = () => {
 
-//put in a picture here once initial set up is completed 
-
   return (
   <div className="nav-bar">
     <img
               src={headshot}
               alt="headshot"
             />
-    <ul>
-      <li>
-        <Link to="/">HOME</Link>
-      </li>
-      <li>
-        <Link to="/experience">EXPERIENCE</Link>
-      </li>
-      <li>
-        <Link to="/training">TRAINING</Link>
-      </li>
-      <li>
-        <Link to="/portfolio">PORTFOLIO</Link>
-      </li>
-      <li>
-        <Link to="/skills">SKILLS</Link>
-      </li>
-      <li>
-        <Link to="/interests">INTERESTS</Link>
-      </li>
-    </ul>
+
+          <ul>
+            <li>
+              <Link to="/">HOME</Link>
+            </li>
+            <li>
+              <Link to="/experience">EXPERIENCE</Link>
+            </li>
+            <li>
+              <Link to="/portfolio">PORTFOLIO</Link>
+            </li>
+            <li>
+              <Link to="/interests">INTERESTS</Link>
+            </li>
+          </ul>
   </div>
   );
 }

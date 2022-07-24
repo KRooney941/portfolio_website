@@ -1,0 +1,38 @@
+.interests {
+    flex-direction: column;
+    padding-left: 350px;
+    height: fit-content;
+    height: 100px;
+}
+
+.interests>h4 {
+    font-size: 70px;
+    height: 80px;
+}
+
+
+.interests>p {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+.GFW {
+    color: yellow;
+}
+
+.FDAMH {
+    color: yellow;
+}
+
+.CRUSE {
+    color: yellow;
+}
+
+.budgies {
+
+    display: block;
+    margin-left: auto;
+    margin-right: 500px;
+    width: 200px;
+}

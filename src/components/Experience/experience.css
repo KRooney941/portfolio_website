@@ -1,0 +1,38 @@
+.experience {
+    flex-direction: column;
+    padding-left: 350px;
+    height: fit-content;
+    height: 100px;
+}
+
+
+
+.experience>h4 {
+    position: relative;
+    font-size: 70px;
+    height: 10px;
+}
+
+.skills>ul {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    font-size: 15px;
+}
+
+.experience>p {
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.STA {
+    color: yellow;
+}
+
+.gained {
+    text-decoration: underline;
+}
+
+.codeclan {
+    color: yellow;
+}

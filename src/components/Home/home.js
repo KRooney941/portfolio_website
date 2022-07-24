@@ -4,22 +4,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
-  faSkype,
 } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faUser, faEnvelope, faSuitcase } from '@fortawesome/free-solid-svg-icons'
-import { Link, NavLink } from 'react-router-dom'
 
 const Home = () => (
 <>
-  <div className="home">
+  <div className="animate-charcter">
     <h1>KIERAN ROONEY</h1>
   </div>
   <div className="sub-heading">
     <p>KIRKINTILLOCH <span class="dot"></span> GLASGOW  <span class="dot"></span> <a href="mailto:krooney941@googlemail.com"> KROONEY941@GOOGLEMAIL.COM </a> </p>
   </div>
   <div className="paragraph">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>I am a driven Junior Software Developer with an academic history in Psychology. Since graduating with a Master's  in Health Psychology I have worked in fast paced, challenging environments where I have had to learn things quickly and work autonomously, as well as in a team to best support service users. 
+
+During COVID I lost my drive to peruse a careen in psychology and tried my hand at coding and fell in love immediately. Coding merged my love of all things tech with my love for creative pursuits.  
+
+I have a passion for learning, in my previous role I found as many opportunities to further my learning outside of work through volunteering and additional courses. I have used this passion in my new role by always trying to improve as a developer, not just at codeclan, but also on sites like Codecademy.</p>
   </div>
   <ul className="list">
         <li>
@@ -28,7 +28,7 @@ const Home = () => (
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+            <FontAwesomeIcon className="LinkedIn" icon={faLinkedin} color="#4d4d4e" />
           </a>
         </li>
         <li>
@@ -37,7 +37,7 @@ const Home = () => (
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+            <FontAwesomeIcon className="github" icon={faGithub} color="#4d4d4e" />
           </a>
         </li>
       </ul>

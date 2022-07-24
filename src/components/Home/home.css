@@ -1,22 +1,16 @@
-.home {
-    flex-direction: column;
-    padding-left: 350px;
-    height: fit-content;
-    height:100px;
+.paragraph>p {
+    font-size: 20px
 }
 
-.sub-heading > p {
+.sub-heading>p {
     font-size: 20px;
     padding-left: 355px;
 }
 
 
 
-a:hover {
-    color: pink;
-  }
 
-.paragraph > p {
+.paragraph>p {
     padding-top: 50px;
     padding-left: 355px;
     padding-right: 20px;
@@ -29,24 +23,75 @@ a:hover {
 .dot {
     height: 10px;
     width: 10px;
-    background-color:black;
+    background-color: black;
     border-radius: 50%;
     display: inline-block;
-  }
-
-  h1{
-    font-size:100px;
 }
 
-.buttons > button {
+h1 {
+    font-size: 100px;
+}
+
+.buttons>button {
     padding-left: 3000px;
 }
 
-.list > li {
-    padding-left: 500px;
+.list>li {
+    padding-left: 315px;
 }
 
-svg {
-    height:50px
+.LinkedIn {
+    color: rgb(254, 254, 254);
+    padding-top: 17px;
+    height: 70px
 }
 
+.LinkedIn:hover {
+    color: #ababab;
+    ;
+}
+
+.github {
+    color: rgb(254, 254, 254);
+    height: 70px;
+    padding-left: 20px;
+}
+
+.github:hover {
+    color: #ababab;
+    ;
+}
+
+.LinkedIn,
+.github {
+    float: left;
+    display: inline-block
+}
+
+.animate-charcter {
+    padding-left: 350px;
+    height: 180px;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 190px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
