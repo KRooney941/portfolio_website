@@ -1,4 +1,4 @@
-Here is a link to my portfolio sight if you want to learn a bit more about me: https://krooney941.github.io/portfolio_website/
+Here is a link to my portfolio site if you want to learn a bit more about me: https://krooney941.github.io/portfolio_website/
 
 # Getting Started with Create React App
 
