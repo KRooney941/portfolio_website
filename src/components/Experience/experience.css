@@ -3,12 +3,16 @@
     padding-left: 350px;
     height: fit-content;
     height: 100px;
+    top: 0%
+}
+
+.experience {
+    position: absolute;
+    top: -60px;
 }
 
 
-
 .experience>h4 {
-    position: relative;
     font-size: 70px;
     height: 10px;
 }

@@ -3,6 +3,8 @@
     height: fit-content;
     height: 100px;
     margin-right: 30px;
+    position: absolute;
+    top: -60px;
 }
 
 .portfolio>h4 {
@@ -41,7 +43,7 @@
 }
 
 .weather-app>p {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .vet-app>h2 {
@@ -50,7 +52,7 @@
 }
 
 .vet-app>p {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .link {

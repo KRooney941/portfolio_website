@@ -4,12 +4,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-} from '@fortawesome/free-brands-svg-icons'
+} from '@fortawesome/free-brands-svg-icons';
+import TypeAnimation from 'react-type-animation';
+
 
 const Home = () => (
 <>
   <div className="animate-charcter">
-    <h1>KIERAN ROONEY</h1>
+  <TypeAnimation
+        cursor={true}
+        sequence={['KIERAN ROONEY', 2000, 'PROGRAMMER', 2000, 'BUDGIE DAD', 2000, "WANNABE GAELIC SPEAKER", 'KIERAN ROONEY']}
+        wrapper="h2"
+        repeat={3}
+       />
   </div>
   <div className="sub-heading">
     <p>KIRKINTILLOCH <span class="dot"></span> GLASGOW  <span class="dot"></span> <a href="mailto:krooney941@googlemail.com"> KROONEY941@GOOGLEMAIL.COM </a> </p>
@@ -17,9 +24,9 @@ const Home = () => (
   <div className="paragraph">
       <p>I am a driven Junior Software Developer with an academic history in Psychology. Since graduating with a Master's  in Health Psychology I have worked in fast paced, challenging environments where I have had to learn things quickly and work autonomously, as well as in a team to best support service users. 
 
-During COVID I lost my drive to peruse a careen in psychology and tried my hand at coding and fell in love immediately. Coding merged my love of all things tech with my love for creative pursuits.  
+During COVID I tried my hand at coding and fell in love immediately. Coding merged my love of all things tech with my love for creative pursuits.  
 
-I have a passion for learning, in my previous role I found as many opportunities to further my learning outside of work through volunteering and additional courses. I have used this passion in my new role by always trying to improve as a developer, not just at codeclan, but also on sites like Codecademy.</p>
+I have a passion for learning, in my previous role I found as many opportunities to further my learning outside of work through volunteering and additional courses. I have used this passion in my new role by always trying to improve as a developer.</p>
   </div>
   <ul className="list">
         <li>

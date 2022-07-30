@@ -18,7 +18,7 @@ const Portfolio = () => (
       </div>
         <div className="vet-app">
             <h2>Vet Management App | Solo project</h2>
-              <p>A web application for a vet to manage both animals and vets in their practice. Built using Python, Flask, and a SQL database.</p>
+              <p>A web application for a vet to manage both animals and vets in their practice. Built using Python, Flask, and a SQL database (Basically an excuse to show my budgies). </p>
               <p> <a className="link" href="https://github.com/KRooney941/Vet_management_app">Github link to the project!</a> </p>
             <img className="vet-app-image"
               src={vet}
